@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/add_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/time1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="시간을 선택하세요."
+            android:gravity="center"
+            android:clickable="true"
+            android:editable="false"
+            android:layout_weight="1"
+            android:layout_margin="10dp">
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="~"
+            android:textSize="20dp"
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:id="@+id/time2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="시간을 선택하세요."
+            android:clickable="true"
+            android:editable="false"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_margin="10dp">
+            <requestFocus />
+        </EditText>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/logging"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="1"
+        android:gravity="center|left"
+        android:maxLength="23"
+        android:singleLine="true"
+        android:scrollHorizontally="false"
+        android:minWidth="10.0dip"
+        android:maxWidth="5.0dip"
+        android:hint="한 일을 적어주세요."
+        android:layout_margin="10dp">
+        <requestFocus />
+    </EditText>
+
+</LinearLayout>

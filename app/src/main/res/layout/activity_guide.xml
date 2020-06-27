@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginRight="5dp"
+        android:gravity="center"
+        android:text="본 어플은 타임로그 작성 어플입니다.\n
+        오늘 지나간 시간에 대해서는 수정하실 수 없습니다.\n
+        따라서 하루에 입력하실 때에 정확하게 입력해주시기 바랍니다.\n
+        간단한 사용법은 다음과 같습니다.\n\n
+        1. 히스토리에서 액션바에 이미지 버튼을 클릭해서 \n오늘 날짜의 파일을 생성하고 절차에 따라서 입력해주세요\n\n
+        2. 그러고 난 후 히스토리에 해당 파일이 뜨고,\n 클릭하면 입력한 데이터를 살펴볼 수 있습니다.\n\n
+        3. 오른쪽 상단에 메뉴를 눌러 오늘 날짜 파일을 수정할 수 있고, \n오늘 날짜의 통계를 살펴볼 수 있습니다.\n\n
+        본 어플을 이용하면서 시간을 아껴쓰시기 바랍니다.\n\n
+        감사합니다."
+        />
+
+    <Button
+        android:id="@+id/startBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="시작하기"
+        android:layout_margin="20dp"
+        />
+
+</LinearLayout>
