@@ -28,7 +28,7 @@ public class DetailActivity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
-
+         
         detailView = findViewById(R.id.detail_view);
 
         Intent intent = getIntent();
